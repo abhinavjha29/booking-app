@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAXI SERVICE</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="container">
+  <h1 id="header">Contact Us</h1>  
+  <form onsubmit="userdetails(event)" method="post" id="my-form">
+      <h1>Add User</h1>
+      <div class="msg"></div>
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="text" id="email">
+      </div>
+      <input class="btn" type="submit" value="Submit" id="submit">
+    </form>
+<div class="history">
+  <h2 class="title">history</h2>
+  <ul id="items" class="list-group">
+   
+    
+  </ul>
+</div>
+   
+
+
+   
+  </div>
+  
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.js"></script>
+
+  <script src="script1.js"></script>    
+</body>
+</html>
